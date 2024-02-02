@@ -2,10 +2,10 @@
 mod serde;
 
 mod entry;
-mod iter;
+pub mod iter;
 
 use core::iter::{IntoIterator, Iterator};
-use iter::*;
+pub use iter::*;
 
 pub use entry::*;
 
